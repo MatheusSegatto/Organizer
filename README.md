@@ -1,4 +1,4 @@
-# Organizador
+# Organizer
 Python program to organize the Downloads folder in Windows
 
 ### How to use:
