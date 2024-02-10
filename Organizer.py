@@ -26,7 +26,7 @@ for f in os.listdir(current_dir):
                 os.path.join(current_dir, f'{filename}{file_ext}'),
                 os.path.join(current_dir, 'Apps', f'{filename}{file_ext}'))
 
-        elif file_ext in ('.zip', '.rar', '.7z'):
+        elif file_ext in ('.zip', '.rar'):
             shutil.move(
             os.path.join(current_dir, f'{filename}{file_ext}'),
             os.path.join(current_dir, 'Zip', f'{filename}{file_ext}'))
